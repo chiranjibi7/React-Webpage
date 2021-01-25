@@ -1,0 +1,7 @@
+.TimeDisplay{
+    width: 30%;
+    background-color: rgb(218, 83, 83);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 33.5px;
+}
