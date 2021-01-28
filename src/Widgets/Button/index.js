@@ -1,10 +1,16 @@
-import React from 'react';
-import './button.css';
+import React from "react";
+import "./button.css";
 
-const Button = ({children,bdr,marginTp}) => {
-    return (
-        <button className="Button" style={{border: bdr,marginTop:marginTp}}>{children}</button>
-    )
-}
+const Button = ({ children, bdr, marginTp, type }) => {
+  return (
+    <button
+      className="Button"
+      style={{ border: bdr, marginTop: marginTp }}
+      type={type || "button"}
+    >
+      {children}
+    </button>
+  );
+};
 
 export default Button;

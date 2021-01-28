@@ -1,0 +1,19 @@
+.Form{
+    width: 85%;
+    background-color: #eeee;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.Form form input{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    height: 40px;
+    width: 400px;
+}
+
+.Form form textarea{
+    height: 70px;
+    width: 400px;
+}
